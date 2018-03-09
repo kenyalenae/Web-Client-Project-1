@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Kenya Mayieka Portfolio</title>
+
+    <!-- The viewport is the visible area of a page. Pages may be wider
+than the screen or browser window; and pages are often longer than
+the browser window. This tag sets the width of the page equal to the
+width of the browser window. The height stays the same. -->
+    <meta name="viewport" content="width=device-width initial-scale=1">
+
+
+    <!-- Include Bootstrap. This downloads Bootstrap from a CDN. You can
+     also host Bootstrap on your server, but it's usually faster for the
+     user for their browser to fetch it from a CDN. -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <!-- Nav components, and dropdowns, need Bootstrap's JavaScript to do anything.
+    And JavaScript requires JQuery, so include that too -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Raleway" />
+
+
+</head>
+<body>
+
+<!--- HOME --->
+
+    <div class="row">
+        <div class="jumbotron" id="jumbotron">
+          <div id="jumbotronText">
+            <h1>Hello, I'm <span class="highlight">Kenya Mayieka</span>.
+                <br>
+                I'm a web developer in the making.</h1>
+          </div>
+        </div>
+    </div>
+
+<div class="container">
+    <div class="row" id="tab-container">
+
+        <ul class="nav nav-tabs">
+            <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">Home</a></li>
+            <li role="presentation"><a href="#about"  aria-controls="about" role="tab" data-toggle="tab">About</a></li>
+            <li role="presentation"><a href="#portfolio"  aria-controls="portfolio" role="tab" data-toggle="tab">Portfolio</a></li>
+            <li role="presentation"><a href="#contact"  aria-controls="contact" role="tab" data-toggle="tab">Contact</a></li>
+
+        </ul>
+
+
+        <div class="tab-content">
+
+            <div role="tabpanel" class="tab-pane fade in active" id="home">
+                <div class="tabs">
+                    <h2>this is the home section</h2>
+                </div>
+            </div>
+
+            <div role="tabpanel" class="tab-pane fade" id="about">
+                <div class="tabs">
+                    <h2>this is the about section</h2>
+                </div>
+            </div>
+
+            <div role="tabpanel" class="tab-pane fade" id="portfolio">
+                <div class="tabs">
+                    <h2>this is the portfolio section</h2>
+                </div>
+            </div>
+
+            <div role="tabpanel" class="tab-pane fade" id="contact">
+                <div class="tabs">
+                    <h2>this is the contact section</h2>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+</div>
+</body>
+</html>

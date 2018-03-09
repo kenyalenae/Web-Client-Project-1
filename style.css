@@ -1,0 +1,19 @@
+body {
+    background-color: white;
+}
+.jumbotron {
+    background-image: url("pink.jpg");
+    text-align: center;
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    position: relative;
+    color: white;
+    font-family: 'Raleway';
+    src: url("C:\Users\Kenya\Downloads\raleway.zip")
+}
+
+@font-face {
+    font-family: "Raleway";
+    src: url("C:\Users\Kenya\Downloads\raleway.zip")
+}
