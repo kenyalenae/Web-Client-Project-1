@@ -1,19 +1,251 @@
+@font-face {
+    font-family: "Raleway";
+    src: url("C:\Users\Kenya\Downloads\raleway.zip")
+}
+
+html {
+    position: relative;
+    height: 100%;
+}
+
 body {
     background-color: white;
 }
-.jumbotron {
-    background-image: url("pink.jpg");
+
+.navbar {
+    height: 70px;
+    background-color: transparent;
+    background: transparent;
+    border: none;
+    color: #ffffff;
+    z-index: 100;
+    margin-bottom: 0;
+    border-radius: 0;
+    transition: background-color 1s ease 0s; }
+
+.navbar-brand {
+    display: none;
+    margin-top: 10px;
+    color: #ffffff;
+    font-weight: 400; }
+
+.navbar-default .navbar-nav > li > a {
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 1em;
+    margin: 10px 5px 5px 5px;
+    border-radius: 5px; }
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:active, .navbar-default .navbar-nav > li > a:focus {
+    color: #ffffff;
+    border: 1px solid #ffffff; }
+.navbar-default .navbar-nav > li > a:visited {
+    color: #ffffff;
+    text-decoration: none; }
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    background-color: transparent;
+    color: #ffffff; }
+.navbar-default .navbar-toggle {
+    border-color: #ffffff; }
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+    background-color: #701111; }
+.navbar-default .navbar-toggle .icon-bar {
+    color: #ffffff;
+    background-color: #ffffff; }
+.navbar-default .navbar-collapse.collapse.in ul {
+    background-color: #701111; }
+
+/* Solid class attached on scroll past first section */
+.navbar.solid {
+    background-color: #701111;
+    transition: background-color 1s ease 0s;
+    box-shadow: 0 0 4px rgba(7, 55, 74, 0.2); }
+.navbar.solid .navbar-brand {
+    display: inline-block;
+    color: #f0f0e6;
+    transition: color 1s ease 0s; }
+.navbar.solid .navbar-nav > li > a {
+    color: #f0f0e6;
+    transition: color 1s ease 0s; }
+
+.cover {
+    padding: 10% 0 10% 0;
+}
+
+.cover.top {
+    background-color: #AA3939;
     text-align: center;
     background-position: center;
     background-size: cover;
-    height: 500px;
+    height: 700px;
     position: relative;
     color: white;
     font-family: 'Raleway';
     src: url("C:\Users\Kenya\Downloads\raleway.zip")
 }
 
-@font-face {
-    font-family: "Raleway";
+.highlight {
+    color: #350000;
+}
+
+#header a {
+    font-size: 45px;
+    color: #fff;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+
+}
+
+#header a:hover {
+    font-size: 50px;
+}
+
+.btn-circle {
+    width: 70px;
+    height: 70px;
+    border: 2px solid #fff;
+    border-radius: 100%;
+}
+
+.btn-circle:hover {
+    background: rgba(255,255,255,0.1);
+}
+
+h1 {
+    color: #FFBEBE;
+    font-size: 65px;
+    font-family: 'Raleway';
     src: url("C:\Users\Kenya\Downloads\raleway.zip")
+}
+
+h2,h3,h4,h5 {
+    color: #FFBEBE;
+    font-family: 'Raleway';
+    src: url("C:\Users\Kenya\Downloads\raleway.zip")
+}
+
+p {
+    color: #FFBEBE;
+    font-family: 'Raleway';
+    src: url("C:\Users\Kenya\Downloads\raleway.zip")
+}
+
+/* ABOUT SECTION */
+#about {
+    background-color: #701111;
+}
+
+.about, .about-info, .about-tools {
+    padding: 4% 10% 1% 10%;
+    font-size: 1.25em;
+}
+
+.about-tools {
+    padding-top: 4.375em;
+    font-weight: 700;
+    font-size: 1.5em;
+    color: #FFBEBE;
+}
+
+.about-tools ul {
+    list-style: none;
+}
+
+#portfolio {
+
+    background-color: #AA3939;
+}
+
+/* CONTACT SECTION */
+#contact {
+    background-color: #701111;
+}
+
+form {
+    width: 500px;
+    margin: 20px auto 0 auto;
+
+}
+
+input[type="text"], input[type="email"], textarea {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    outline: none;
+    border: 0;
+    padding: 10px 15px;
+    background: #FFBEBE;
+    font-size: 12pt;
+    margin-bottom: 3px;
+    color: #350000;
+}
+
+textarea {
+    min-height: 150px;
+    margin-bottom: 5px;
+}
+
+/* SUBMIT BUTTON FOR CONTACT SECTION */
+.button {
+    float: right;
+    margin: 5px 0 0 0;
+    color: #ffffff;
+    background: transparent;
+    border: 2px solid #ffffff;
+    padding: 10px 20px;
+    box-sizing: inherit;
+    display: inline-block;
+    font-size: 13pt;
+    transition: all .5s;
+    cursor: pointer;
+    vertical-align: middle;
+}
+
+.button:hover {
+    background: #AA3939;
+    border-color: #AA3939;
+}
+
+/* FOOTER DIV */
+#footer {
+    background: whitesmoke;
+    color: #55606A;
+    padding-top: 50px;
+    padding-bottom: 35px;
+    text-align: center;
+}
+
+/* SOCIAL ICONS */
+.icon-btn {
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: 30px;
+    text-indent: 30px;
+}
+
+a {
+    color: #55606A;
+}
+
+a:hover {
+    color: black;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+.github-icn:hover {
+    color: #333;
+}
+
+.linkedin-icn:hover {
+    color: #0077B5;
+}
+
+.facebook-icn:hover {
+    color: #3b5998;
+}
+
+.instagram-icn:hover {
+    color: #fb3958;
 }
